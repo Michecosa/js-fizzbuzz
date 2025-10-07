@@ -1,0 +1,16 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+:root {
+  --blue: #3535ec;
+  --green: #0adf71;
+  --red: #f71668;
+  --purple: #b444f5;
+  --light-gray: #ededed;
+  --yellow: #ffd700;
+  --cyan: #03ffff;
+}
+
+body {background-color: var(--blue);}
