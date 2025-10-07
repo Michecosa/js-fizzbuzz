@@ -6,9 +6,10 @@
 
 
 for(let i=1; i<=100; i++) {
-  const divisibleBy3 = i % 3 == 0;
-  const divisibleBy5 = i % 5 == 0;
-  
+  // Calcolo una sola volta le due condizioni di divisibilità
+  const divisibleBy3 = i % 3 == 0; // true se i è multiplo di 3
+  const divisibleBy5 = i % 5 == 0; // true se i è multiplo di 5
+
   if( divisibleBy3 && divisibleBy5){
     console.log("FizzBuzz");
   } else if ( divisibleBy3 ) {
