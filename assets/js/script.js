@@ -4,6 +4,9 @@
   Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 */
 
+const divisibleBy3 = i % 3 == 0;
+const divisibleBy5 = i % 5 == 0;
+
 for(let i=1; i<=100; i++) {
   if( i % 3 == 0 & i % 5 !== 0){
     console.log("Fizz");
