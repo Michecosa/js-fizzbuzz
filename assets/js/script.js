@@ -10,12 +10,16 @@ for(let i=1; i<=100; i++) {
   const divisibleBy3 = i % 3 == 0; // true se i è multiplo di 3
   const divisibleBy5 = i % 5 == 0; // true se i è multiplo di 5
 
+  // 1. Se è divisibile sia per 3 che per 5, stampo "FizzBuzz"
   if( divisibleBy3 && divisibleBy5){
     console.log("FizzBuzz");
+  // 2. Altrimenti, se è solo divisibile per 3, stampo "Fizz"
   } else if ( divisibleBy3 ) {
     console.log("Fizz");
+  // Altrimenti, se è solo divisibile per 5, stampo "Buzz"
   } else if( divisibleBy5 ) {
     console.log("Buzz");
+  // Altrimeniti, stampo il numero (nessuna delle condizioni precedenti è vera)
   } else {
     console.log(i);
   }
